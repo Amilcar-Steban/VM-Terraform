@@ -12,10 +12,10 @@ This project aims to create a virtual machine in azure using terraform, for this
 Create main.tf, this file contain different components that are necesary to create the group and modules, for example:
 * Virtual Network
 * subnet
-* ip pública
-* interfaz de red
-* grupo de seguridad
-* Asociacion IR-GS
+* public ip
+* network interface
+* security group
+* IR-GS association
 * Virtual machine
 
 ### Virtual Network:
