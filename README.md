@@ -11,7 +11,8 @@ This project aims to create a virtual machine in azure using terraform, for this
 ## Step 1
 Create main.tf, this file contain different components that are necesary to create the group and modules, for example:
 * Virtual Network
-* subnet, ip pública
+* subnet
+* ip pública
 * interfaz de red
 * grupo de seguridad
 * Asociacion IR-GS
