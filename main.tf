@@ -91,7 +91,7 @@ resource "azurerm_linux_virtual_machine" "vm-deploy-vm" {
   network_interface_ids = [azurerm_network_interface.vm-deploy-anic.id, ]
   admin_ssh_key {
     username   = "adminuser"
-    public_key = file("~/.ssh/vm-deploy-key.pub")
+    public_key = file("~/.ssh/vm-deploy-key-ssh.pub.pub")
   }
   os_disk {
     caching              = "ReadWrite"
